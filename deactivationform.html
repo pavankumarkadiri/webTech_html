@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Deactivation Form</title>
+    <style>
+        body{
+            font-size: large;
+            padding: 20px;
+        }
+        input[type="submit"],input[type="reset"] {
+            padding: 4px;
+            margin: 8px;
+        }
+        h1{
+            text-align: center;
+            background-color: #75d7f8;
+        }
+        fieldset{
+            width: fit-content;
+            margin-left: 34%;
+            border-radius: 12px;
+        }
+        form{
+            text-align: center;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <img src="data:image/jpeg;base64,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" alt="LinkedIn Logo">
+    <h1>LinkedIn Deactivation Form</h1><br>
+    <form>
+        <fieldset><br>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required><br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" required><br><br>
+            <label for="lid">LinkedIn Id:</label>
+            <input type="text" name="lid" id="lid" required><br><br>
+            <label for="TD">Deactivation:</label>
+            <select name="TD" id="TD" required>
+                <option value="">Select options</option>
+                <option value="Temporarily disable">Temporarily disable</option>
+                <option value="Permanently disable">Permanently disable</option>
+            </select><br><br>
+            <label for="reason">Reason for Deactivation:</label>
+            <select name="reason" id="reason" required>
+                <option value="">Select a reason</option>
+                <option value="privacy_concerns">Privacy Concerns</option>
+                <option value="too_many_notifications">Too Many Notifications</option>
+                <option value="no_longer_use">No Longer Use LinkedIn</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label for="comments">Additional Comments (optional):</label>
+            <textarea id="comments" name="comments" rows="4"></textarea><br><br>
+        </fieldset>
+        <input type="submit" value="Deactivate Account">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
